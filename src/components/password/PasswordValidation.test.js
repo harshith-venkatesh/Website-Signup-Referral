@@ -1,6 +1,8 @@
 describe('Input with label Password should be ', () => {
     test.todo('input should be of type password')
-    test.todo('form field should have  👁 icon')
+    test.todo('form field should have eye icon')
+    test.todo('Password should show on click of eye')
+    test.todo('Password should be disabled if user click on eye icon again')
   })
   
   describe('Test for password validation division', () => {
