@@ -1,5 +1,5 @@
 describe('OTP Validation page should contain', () => {
-    test.todo('inputs of type number are present')
+    test.todo('input component for OTP')
     test.todo('submit button is present')
     test.todo('route to Referral screen on successful submission')
 })
