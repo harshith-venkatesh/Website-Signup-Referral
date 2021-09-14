@@ -1,4 +1,5 @@
 import './App.css';
+import LoginForm from './pages/LoginForm/LoginForm';
 
 function App() {
   return (
@@ -6,6 +7,7 @@ function App() {
       <header className="App-header">
         <h1>Initial Setup</h1>
       </header>
+      <LoginForm />
     </div>
   );
 }
