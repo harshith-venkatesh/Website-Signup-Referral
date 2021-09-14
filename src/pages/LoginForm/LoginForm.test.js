@@ -50,7 +50,13 @@ describe('Email Component should be', () => {
     })
    
     test.todo('error message to be displayed after 500 ms if user input is invalid')
-    test.todo('error message should not be displayed if user input is valid')
+    it('error message should not be displayed if user input is valid',() => {
+        const emailField = screen.getByTestId('email-field');
+        expect(emailField).toBeInTheDocument()
+        fireEvent.change(emailField,{target:{value:'test@gmail.com'}})
+        const loginButton = screen.getByTestId('login-form')
+        expect(loginButton).toBeDisabled();
+    })
   })
 
 
